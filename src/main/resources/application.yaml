@@ -1,0 +1,13 @@
+bot:
+  name: NAMEBOT
+  token: TOKENBOT
+spring:
+  datasource:
+    url: jdbc:postgresql://ec2-54-74-156-137....URL....
+    driver-class-name: org.postgresql.Driver
+    initialization-mode: never
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
