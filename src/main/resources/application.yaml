@@ -3,7 +3,7 @@ bot:
   token: TOKENBOT
 spring:
   datasource:
-    url: jdbc:postgresql://ec2-54-74-156-137....URL....
+    url: jdbc:postgresql://{Host}:{Port}/{Database}?user={User}&password={Password}
     driver-class-name: org.postgresql.Driver
     initialization-mode: never
   jpa:
