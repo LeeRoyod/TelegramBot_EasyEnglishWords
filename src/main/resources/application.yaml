@@ -1,9 +1,9 @@
 bot:
-  name: NAMEBOT
-  token: TOKENBOT
+  name: EasyEnglishWordsBot
+  token: 1835091599:AAGwtWiOTVeh7JndgjxrracXTXmukm67Vnw
 spring:
   datasource:
-    url: jdbc:postgresql://{Host}:{Port}/{Database}?user={User}&password={Password}
+    url: jdbc:postgresql://ec2-54-74-156-137.eu-west-1.compute.amazonaws.com:5432/d404gooorro5ub?user=gygkvjmayhlydf&password=4fbfa8368725094f0e663d6673d818a0073bef69747eb3991775c300bd27d9b1
     driver-class-name: org.postgresql.Driver
     initialization-mode: never
   jpa:
