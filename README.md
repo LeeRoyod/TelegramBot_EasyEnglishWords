@@ -23,4 +23,6 @@ ____
 ____
 #### Список использованных источников <br/>
 1. Документация к библиотеке TelegramBots-Spring-Boot-Starter: https://github.com/rubenlagus/TelegramBots/tree/master/telegrambots-spring-boot-starter <br/>
-2. Введение для разработчиков бота Telegram: https://core.telegram.org/bots
+2. Введение для разработчиков бота Telegram: https://core.telegram.org/bots <br/>
+3. Project Lombok: https://projectlombok.org/ <br/>
+4. Spring Data JPA: https://spring.io/projects/spring-data-jpa
