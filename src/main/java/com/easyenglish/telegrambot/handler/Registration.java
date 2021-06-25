@@ -55,7 +55,7 @@ public class Registration implements Handler {
                 createInlineKeyboardButton("Начать викторину", QUIZ_START));
 
         inlineKeyboardMarkup.setKeyboard(List.of(inlineKeyboardButtonsRowOne));
-        log.debug("Новый пользователь: " + user.getName());
+
         return List.of(createMessageTemplate(user).setText(String.format(
                 "Ваше имя сохранено как: %s", user.getName()))
                 .setReplyMarkup(inlineKeyboardMarkup));
@@ -73,7 +73,7 @@ public class Registration implements Handler {
                 createInlineKeyboardButton("Принять", NAME_ACCEPT));
 
         inlineKeyboardMarkup.setKeyboard(List.of(inlineKeyboardButtonsRowOne));
-
+        log.debug("Пользователь: " + user.getName() + " ID: " + user.getId());
         return List.of(createMessageTemplate(user)
                 .setText(String.format("Вы ввели: %s%nЕсли всё правильно - нажмите кнопку", user.getName()))
                 .setReplyMarkup(inlineKeyboardMarkup));
